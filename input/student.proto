@@ -1,0 +1,16 @@
+syntax = "proto2";
+package somepack;
+
+message somestudent{
+    required string _name = 1;
+    required bool _sex = 2;
+    required int32 _age = 3;
+    required string _studentid = 4;
+    optional bool _marriage = 5;
+    repeated string _phonenumber = 11;
+    message Course{
+        required string _coursename = 1;
+        required int32 _courseid = 2;
+    }
+    repeated Course _selectedcourse = 12;
+}

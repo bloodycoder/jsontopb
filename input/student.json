@@ -1,0 +1,8 @@
+{
+    "_name": "Trump",
+    "_sex": true,
+    "_age":70,
+    "_studentid":"5001",
+    "_phonenumber":["13100000000","12100000000"],
+    "_selectedcourse":[{"_coursename":"Big data","_courseid":1},{"_coursename":"Tennis","_courseid":21}]
+}
