@@ -56,7 +56,5 @@ jsontopb是一个用c++语言编写的将json转化为google protocol buffer的�
 
 ## 还需要完成的功能
 
-- [ ] 
 - [ ] 高级功能：如何针对json文件自动生成`pb schema`文件
 - [ ] `protobuf`的`enum`格式的转换还未实现。
-- [ ] 
