@@ -38,6 +38,9 @@ jsontopb是一个用c++语言编写的将json转化为google protocol buffer的�
 
 `./runall.sh input/filename.proto input/filename.json outfilepath`
 
+在增加json文件自动生成`pb schema`文件功能后，执行命令转换为
+`./newrunall.sh input/filename.json outfilepath`
+
 如果上述命令执行失败
 
 1. 手动对`proto`文件进行编译。在`input`目录下执行

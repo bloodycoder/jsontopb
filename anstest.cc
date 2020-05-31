@@ -11,11 +11,11 @@ void showStudent(const PKGNAME::CLASSNAME& astudent){
     cout<<"studen id"<<astudent._studentid()<<endl;
     for(int j=0;j<astudent._phonenumber_size();j++){
         const string & phone_num = astudent._phonenumber(j);
-        cout<<"phhone number is "<<phone_num<<endl;
+        cout<<"phone number is "<<phone_num<<endl;
     }
     for(int j=0;j<astudent._selectedcourse_size();j++){
         cout<<"course "<<j<<" infomation "<<endl;
-        const PKGNAME::somestudent_Course course = astudent._selectedcourse(j);
+        const PKGNAME::somestudent__selectedcourse_mes course = astudent._selectedcourse(j);
         cout<<"course id is "<< course._courseid()<<endl;
         cout<<"course name is "<<course._coursename()<<endl;
     }
